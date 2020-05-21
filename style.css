@@ -471,6 +471,8 @@ textarea {
     width: 90%;
     line-height: 1.6;
     font-size: 1.05rem;
+    color:white;
+    font-weight: bold;
 }
 
 
@@ -503,6 +505,44 @@ textarea {
     margin: 40px 10px 10px;
     padding: 10px 14px 20px 10px;
 
+}
+
+#personal-details{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -60px;
+  margin-top: 10px;
+}
+.person-name{
+  background-color: #ffb24c;
+  height: 90px;
+  width: 320px;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 15px;
+  box-shadow: 2px 2px 4px lightgrey;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+}
+.person-name p{
+  margin: auto;
+  padding: 20px;
+  color:#a314f5;
+}
+.person-images{
+  height: 120px;
+  width: 120px;
+  position: relative;
+  left:50px;
+}
+.person-images img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border:8px solid #ffb24c;
 }
 
 input:focus,
